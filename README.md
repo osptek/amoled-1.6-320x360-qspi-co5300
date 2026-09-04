@@ -17,7 +17,8 @@
 
 - [说明](#说明)
 - [版本一览](#版本一览)
-- [AM160Q320360ZS](#am160q320360zs)
+- [AM160Q320360ZS1](#am160q320360zs1)
+- [AM160Q320360ZS（停产 / EOL）](#am160q320360zs)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
@@ -37,7 +38,18 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
-| AM160Q320360ZS | <img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="120" /> | [简介](#am160q320360zs) | [完整资料](./versions/AM160Q320360ZS/) |
+| AM160Q320360ZS1 | <img alt="AM160Q320360ZS1" src="./versions/AM160Q320360ZS1/images/product.png" width="120" /> | [简介](#am160q320360zs1) | [完整资料](./versions/AM160Q320360ZS1/) |
+| AM160Q320360ZS（停产 / EOL） | <img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="120" /> | [简介](#am160q320360zs) | [完整资料](./versions/AM160Q320360ZS/) |
+
+---
+
+## AM160Q320360ZS1
+
+<p align="center"><img alt="AM160Q320360ZS1" src="./versions/AM160Q320360ZS1/images/product.png" width="320" /></p>
+
+**说明：** 现货。盖板比停产料号 `AM160Q320360ZS` 大；其余相同，驱动 / 例程可沿用。带触摸（CST820）。
+
+完整产品页、规格书与示例：[versions/AM160Q320360ZS1/](./versions/AM160Q320360ZS1/)
 
 ---
 
@@ -45,7 +57,7 @@
 
 <p align="center"><img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="320" /></p>
 
-**说明：** 带触摸（CST820）。
+**说明：** **停产 / EOL。** 请改用同仓 [`AM160Q320360ZS1`](./versions/AM160Q320360ZS1/)（盖板更大，驱动 / 例程可沿用）。本目录资料保留。
 
 完整产品页、规格书与示例：[versions/AM160Q320360ZS/](./versions/AM160Q320360ZS/)
 

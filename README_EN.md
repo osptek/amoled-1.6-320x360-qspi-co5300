@@ -17,7 +17,8 @@
 
 - [About](#about)
 - [Versions](#versions)
-- [AM160Q320360ZS](#am160q320360zs)
+- [AM160Q320360ZS1](#am160q320360zs1)
+- [AM160Q320360ZS (停产 / EOL)](#am160q320360zs)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -37,7 +38,18 @@ Repo id: `1.6-amoled-320x360-qspi-co5300`
 
 | Version | Image | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
-| AM160Q320360ZS | <img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="120" /> | [Summary](#am160q320360zs) | [Full docs](./versions/AM160Q320360ZS/) |
+| AM160Q320360ZS1 | <img alt="AM160Q320360ZS1" src="./versions/AM160Q320360ZS1/images/product.png" width="120" /> | [Summary](#am160q320360zs1) | [Full docs](./versions/AM160Q320360ZS1/) |
+| AM160Q320360ZS (停产 / EOL) | <img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="120" /> | [Summary](#am160q320360zs) | [Full docs](./versions/AM160Q320360ZS/) |
+
+---
+
+## AM160Q320360ZS1
+
+<p align="center"><img alt="AM160Q320360ZS1" src="./versions/AM160Q320360ZS1/images/product.png" width="320" /></p>
+
+**Notes:** Current. Cover glass is larger than discontinued `AM160Q320360ZS`; everything else is the same, so the driver and examples can be reused. With touch (CST820).
+
+Full product page, datasheets, and examples: [versions/AM160Q320360ZS1/](./versions/AM160Q320360ZS1/)
 
 ---
 
@@ -45,7 +57,7 @@ Repo id: `1.6-amoled-320x360-qspi-co5300`
 
 <p align="center"><img alt="AM160Q320360ZS" src="./versions/AM160Q320360ZS/images/product.png" width="320" /></p>
 
-**Notes:** With touch (CST820).
+**Notes:** **停产 / EOL.** Use [`AM160Q320360ZS1`](./versions/AM160Q320360ZS1/) in this repo instead (larger cover glass; driver / examples can be reused). Materials here are kept.
 
 Full product page, datasheets, and examples: [versions/AM160Q320360ZS/](./versions/AM160Q320360ZS/)
 

@@ -29,13 +29,11 @@
 
 ## 产品简介
 
-**状态：停产 / EOL。** 请改用同仓现货料号 [`AM160Q320360ZS1`](../AM160Q320360ZS1/)（盖板更大，驱动与例程可沿用）。本目录资料保留，供存量与对照。
-
 OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合穿戴、手持终端与紧凑 HMI 等场景。
 
 规格标识（仓库名）：`1.6-amoled-320x360-qspi-co5300`
 
-当前模组版本：**AM160Q320360ZS**。电气与外形细节以 [`docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf`](./docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf) 为准。
+当前模组版本：**AM160Q320360ZS1**。相对停产料号 [`AM160Q320360ZS`](../AM160Q320360ZS/)，仅盖板更大；驱动、触摸、接口与例程相同。电气与外形细节以 [`docs/AM160Q320360ZS1.pdf`](./docs/AM160Q320360ZS1.pdf) 为准。
 
 ## 规格参数
 
@@ -65,13 +63,13 @@ OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 ```text
 1.6-amoled-320x360-qspi-co5300/                                # 仓库根（导航见 ../../README.md）
 └── versions/
-    ├── AM160Q320360ZS1/                               # 现货
-    └── AM160Q320360ZS/                                # 本料号完整资料（停产 / EOL）
-        ├── README.md
-        ├── README_EN.md
-        ├── images/
-        ├── docs/
-        └── examples/
+    ├── AM160Q320360ZS1/                               # 本料号完整资料（现货）
+    │   ├── README.md
+    │   ├── README_EN.md
+    │   ├── images/
+    │   ├── docs/
+    │   └── examples/
+    └── AM160Q320360ZS/                                # 停产 / EOL
 ```
 
 ## 相关资料
@@ -80,10 +78,11 @@ OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 
 | 资料 | 链接 |
 | ---- | ---- |
-| 产品规格书（AM160Q320360ZS） | [`docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf`](./docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf) |
+| 产品规格书（AM160Q320360ZS1） | [`docs/AM160Q320360ZS1.pdf`](./docs/AM160Q320360ZS1.pdf) |
+| 3D 图纸（AM160Q320360ZS1） | [`docs/AM160Q320360ZS1.dwg`](./docs/AM160Q320360ZS1.dwg) |
 | 驱动 IC 数据手册（CO5300） | [`docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf`](./docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf) |
 | 触摸 IC 数据手册（CST820） | [`docs/DS_CST_820_V1_2_e0543732ca.pdf`](./docs/DS_CST_820_V1_2_e0543732ca.pdf) |
-| 转接板原理图 | [`docs/1.6寸屏幕转接板_AM160Q320360ZS.pdf`](./docs/1.6%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BF_AM160Q320360ZS.pdf) |
+| 转接板原理图（与 AM160Q320360ZS 相同） | [`docs/1.6寸屏幕转接板_AM160Q320360ZS.pdf`](./docs/1.6%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BF_AM160Q320360ZS.pdf) |
 
 ### 示例工程
 

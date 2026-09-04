@@ -29,13 +29,11 @@
 
 ## Overview
 
-**Status: 停产 / EOL.** Use the current part number [`AM160Q320360ZS1`](../AM160Q320360ZS1/) in this repo instead (larger cover glass; driver and examples can be reused). Materials here are kept for existing stock and comparison.
-
 OSPTEK **1.6″ 320×360 AMOLED** is a **QSPI** color display module driven by **CO5300**, with touch controller **CST820**. It suits wearables, handheld terminals, and compact HMI.
 
 Spec ID (repository name): `1.6-amoled-320x360-qspi-co5300`
 
-Current module version: **AM160Q320360ZS**. Electrical and mechanical details follow [`docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf`](./docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf).
+Current module version: **AM160Q320360ZS1**. Versus discontinued [`AM160Q320360ZS`](../AM160Q320360ZS/), only the cover glass is larger; the driver, touch, interface, and examples are the same. Electrical and mechanical details follow [`docs/AM160Q320360ZS1.pdf`](./docs/AM160Q320360ZS1.pdf).
 
 ## Specifications
 
@@ -65,13 +63,13 @@ Current module version: **AM160Q320360ZS**. Electrical and mechanical details fo
 ```text
 1.6-amoled-320x360-qspi-co5300/                                # repo root (nav: ../../README_EN.md)
 └── versions/
-    ├── AM160Q320360ZS1/                               # current
-    └── AM160Q320360ZS/                                # full materials for this part number (停产 / EOL)
-        ├── README.md
-        ├── README_EN.md
-        ├── images/
-        ├── docs/
-        └── examples/
+    ├── AM160Q320360ZS1/                               # full materials for this part number (current)
+    │   ├── README.md
+    │   ├── README_EN.md
+    │   ├── images/
+    │   ├── docs/
+    │   └── examples/
+    └── AM160Q320360ZS/                                # 停产 / EOL
 ```
 
 ## Resources
@@ -80,10 +78,11 @@ Current module version: **AM160Q320360ZS**. Electrical and mechanical details fo
 
 | Resource | Link |
 | ---- | ---- |
-| Product datasheet (AM160Q320360ZS) | [`docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf`](./docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf) |
+| Product datasheet (AM160Q320360ZS1) | [`docs/AM160Q320360ZS1.pdf`](./docs/AM160Q320360ZS1.pdf) |
+| 3D drawing (AM160Q320360ZS1) | [`docs/AM160Q320360ZS1.dwg`](./docs/AM160Q320360ZS1.dwg) |
 | Driver IC datasheet (CO5300) | [`docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf`](./docs/CO_5300_Datasheet_V0_00_20230328_07edb82936.pdf) |
 | Touch IC datasheet (CST820) | [`docs/DS_CST_820_V1_2_e0543732ca.pdf`](./docs/DS_CST_820_V1_2_e0543732ca.pdf) |
-| Adapter schematic | [`docs/1.6寸屏幕转接板_AM160Q320360ZS.pdf`](./docs/1.6%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BF_AM160Q320360ZS.pdf) |
+| Adapter schematic (same as AM160Q320360ZS) | [`docs/1.6寸屏幕转接板_AM160Q320360ZS.pdf`](./docs/1.6%E5%AF%B8%E5%B1%8F%E5%B9%95%E8%BD%AC%E6%8E%A5%E6%9D%BF_AM160Q320360ZS.pdf) |
 
 ### Samples
 
