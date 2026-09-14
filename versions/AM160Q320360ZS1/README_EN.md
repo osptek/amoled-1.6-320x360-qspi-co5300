@@ -31,7 +31,7 @@
 
 OSPTEK **1.6″ 320×360 AMOLED** is a **QSPI** color display module driven by **CO5300**, with touch controller **CST820**. It suits wearables, handheld terminals, and compact HMI.
 
-Spec ID (repository name): `1.6-amoled-320x360-qspi-co5300`
+Spec ID (repository name): `amoled-1.6-320x360-qspi-co5300`
 
 Current module version: **AM160Q320360ZS1**. Versus discontinued [`AM160Q320360ZS`](../AM160Q320360ZS/), only the cover glass is larger; the driver, touch, interface, and examples are the same. Electrical and mechanical details follow [`docs/AM160Q320360ZS1.pdf`](./docs/AM160Q320360ZS1.pdf).
 
@@ -52,7 +52,7 @@ Current module version: **AM160Q320360ZS1**. Versus discontinued [`AM160Q320360Z
 
 | Description | Path |
 | ---- | ---- |
-| ESP32-S3 · CO5300 QSPI bringup (LVGL9) | [`examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/`](./examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/) |
+| ESP32-S3 · CO5300 QSPI bringup (LVGL9) | [`examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/`](./examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/) |
 | ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL8 | [`examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/`](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/) |
 | ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL9 | [`examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/`](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/) |
 | ESP32-S3 · LVGL8 + TE | [`examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/`](./examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/) |
@@ -61,7 +61,7 @@ Current module version: **AM160Q320360ZS1**. Versus discontinued [`AM160Q320360Z
 ## Repository layout
 
 ```text
-1.6-amoled-320x360-qspi-co5300/                                # repo root (nav: ../../README_EN.md)
+amoled-1.6-320x360-qspi-co5300/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     ├── AM160Q320360ZS1/                               # full materials for this part number (current)
     │   ├── README.md
@@ -86,7 +86,7 @@ Current module version: **AM160Q320360ZS1**. Versus discontinued [`AM160Q320360Z
 
 ### Samples
 
-- [ESP32-S3 CO5300 QSPI bringup](./examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/)
+- [ESP32-S3 CO5300 QSPI bringup](./examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/)
 - [ESP32-S3 CO5300 QSPI + LVGL8](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/)
 - [ESP32-S3 CO5300 QSPI + LVGL9](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/)
 - [ESP32-S3 LVGL8 + TE](./examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/)

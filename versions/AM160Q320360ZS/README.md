@@ -33,7 +33,7 @@
 
 OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组，显示驱动为 **CO5300**，触摸驱动为 **CST820**。适合穿戴、手持终端与紧凑 HMI 等场景。
 
-规格标识（仓库名）：`1.6-amoled-320x360-qspi-co5300`
+规格标识（仓库名）：`amoled-1.6-320x360-qspi-co5300`
 
 当前模组版本：**AM160Q320360ZS**。电气与外形细节以 [`docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf`](./docs/AM_160_Q320360_ZS_c0ecd5a79a.pdf) 为准。
 
@@ -54,7 +54,7 @@ OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · CO5300 QSPI bringup（LVGL9） | [`examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/`](./examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/) |
+| ESP32-S3 · CO5300 QSPI bringup（LVGL9） | [`examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/`](./examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/) |
 | ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL8 | [`examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/`](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/) |
 | ESP32-S3 · CO5300 QSPI + esp-lvgl-adapter / LVGL9 | [`examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/`](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/) |
 | ESP32-S3 · LVGL8 + TE 防撕裂 | [`examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/`](./examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/) |
@@ -63,7 +63,7 @@ OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 ## 仓库结构
 
 ```text
-1.6-amoled-320x360-qspi-co5300/                                # 仓库根（导航见 ../../README.md）
+amoled-1.6-320x360-qspi-co5300/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     ├── AM160Q320360ZS1/                               # 现货
     └── AM160Q320360ZS/                                # 本料号完整资料（停产 / EOL）
@@ -87,7 +87,7 @@ OSPTEK **1.6 寸 320×360 AMOLED** 是一款 **QSPI** 接口彩色显示模组�
 
 ### 示例工程
 
-- [ESP32-S3 CO5300 QSPI bringup](./examples/esp32s3-1.6-amoled-320x360-qspi-co5300-bringup/)
+- [ESP32-S3 CO5300 QSPI bringup](./examples/esp32s3-amoled-1.6-320x360-qspi-co5300-bringup/)
 - [ESP32-S3 CO5300 QSPI + LVGL8](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8/)
 - [ESP32-S3 CO5300 QSPI + LVGL9](./examples/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl9/)
 - [ESP32-S3 LVGL8 + TE](./examples/with-te/esp32s3-idf5_co5300-qspi_esp-lvgl-adapter_lvgl8_amoled-with-te/)

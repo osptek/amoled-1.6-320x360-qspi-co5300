@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32s3-1.6-amoled-320x360-qspi-co5300-birngup)
+project(esp32s3-amoled-1.6-320x360-qspi-co5300-birngup)
