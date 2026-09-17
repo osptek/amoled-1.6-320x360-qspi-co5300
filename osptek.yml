@@ -1,0 +1,18 @@
+id: amoled-1.6-320x360-qspi-co5300
+category: displays
+
+size: "1.6"
+panel: amoled
+resolution: 320x360
+interface: [qspi]
+shape: rect
+
+versions:
+  - id: AM160Q320360ZS
+    driver: CO5300
+    touch: CST820
+    note: "**停产 / EOL.** Use [`AM160Q320360ZS1`](./versions/AM160Q320360ZS1/) in this repo instead (larger cover glass; driver / examples can be reused). Materials here are kept"
+  - id: AM160Q320360ZS1
+    driver: CO5300
+    touch: CST820
+    note: Current. Cover glass is larger than discontinued `AM160Q320360ZS`; everything else is the same, so the driver and examples can be reused
