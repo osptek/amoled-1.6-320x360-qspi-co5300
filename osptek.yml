@@ -6,6 +6,7 @@ panel: amoled
 resolution: 320x360
 interface: [qspi]
 shape: rect
+corner: rounded
 
 versions:
   - id: AM160Q320360ZS
